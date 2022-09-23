@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react"
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function PublicacaoDetalhes() {
 
@@ -18,6 +18,7 @@ export default function PublicacaoDetalhes() {
 
     return (
         <>
+        <Link></Link>
         <h1>{artigo.title}</h1>
         <br />
         <p>{artigo.body}</p>
