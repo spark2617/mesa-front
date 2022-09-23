@@ -40,7 +40,11 @@ export default function Home() {
         <>
             <h1>Publicações</h1>
             <ul>
-                
+                {
+                    //fazendo uma lista dos titulo
+
+                    // o map esta mapeando os elemento do array que api retorna
+                }
                 {artigos.map(artigo => <Publicacao titulo={artigo.title} id={artigo.id} />)}
                 
             </ul>
